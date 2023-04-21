@@ -1,0 +1,25 @@
+function setup()
+{
+  
+createCanvas(1200, 400);background('white');
+
+}
+
+
+function draw()
+{
+stroke('black')
+  
+fill('black');
+
+
+
+if(mouseIsPressed) 
+{
+
+line(mouseX,mouseY, 5, 5);  
+
+
+ }
+ 
+ } 
